@@ -28,9 +28,10 @@ TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
 
 # LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@1.0-service-sdm \
-    vendor.lineage.livedisplay-V1.0-java
-
-PRODUCT_BOOT_JARS += \
-    vendor.lineage.livedisplay-V1.0-java
+# PRODUCT_PACKAGES += \
+#     vendor.lineage.livedisplay@1.0-service-sdm \
+#     vendor.lineage.livedisplay-V1.0-java
+#
+# PRODUCT_BOOT_JARS += \
+#     vendor.lineage.livedisplay-V1.0-java
+## Not use in AOSP.
